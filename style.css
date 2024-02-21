@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(195, 216, 224) ;
+    place-items: center;
+}
+#hero{
+    position: ;
+    width: 50%;
+    margin-left: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -1%;
+}
+
+h1{
+    font-size: 20px;
+    margin-top: -1px;
+}
+#attribution-a{
+    text-align: center;
+    background-color: white;
+    align-self: center;
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: ;
+    margin-left: 30%;
+    height: 280px;
+    padding-top: 3%;
+}
+#attribution{
+    font-size: 11px; 
+    margin-left: 30%;
+   }    
+#center{
+    background-color: azure;
+    border-radius: 10px;
+    margin: 5%;
+    text-align: left;
+    height: 40px;
+    font-size: 15px;
+}
+#icon{
+    width:35px;
+    float: left;
+}
+#change{
+    text-align: right;
+    color: blue;
+    float: right;
+    margin-right: 3px;
+    margin-bottom: 8px;
+    margin-left: 10%;
+    text-decoration: underline;
+   }
+#plan{
+    text-decoration: bold;
+    border-top: 10px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+#dollar{
+    margin-left: 5%;
+}
+#payment{
+    color: aliceblue;
+    background-color: rgb(51, 51, 170);
+    padding: 0%;
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+#pay{
+    text-decoration: none;
+    color: whitesmoke
+}
+#order{
+    border: 0px;
+    color: white;
+    text-decoration: none;
+    background-color: white;
+    margin-top: 8%;
+}
+#min{
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+}
+
+@media screen(min-width: 375px) {
+    body{
+        background-color: green;
+    }
+}
